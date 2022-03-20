@@ -9,4 +9,6 @@ function makePageForEpisodes(episodeList) {
   rootElem.textContent = `Got ${episodeList.length} episode(s)`;
 }
 
+console.log(getAllEpisodes());
 window.onload = setup;
+
