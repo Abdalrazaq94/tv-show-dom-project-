@@ -1,3 +1,43 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
 #root {
-  color: red;
+  background-color: rgb(224, 221, 221);
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial;
+  font-weight: regular;
+  font-size: medium;
+  font-style: arial;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.episodeDiv {
+  text-align: center;
+  background-color: #ffffff;
+  width: 22rem;
+  height: 33rem;
+  margin: 1rem;
+  border-radius: 5%;
+}
+.ep-text-header {
+  height: 5rem;
+  border: 1px solid rgb(163, 157, 157);
+  border-radius: 5%;
+}
+.ep-text-header div {
+  margin-top: 2rem;
+}
+.ep-image {
+  margin-top: 2rem;
+}
+.main-text-div {
+  margin-top: 1rem;
+  max-width: 250px;
+  height: auto;
+  margin-left: 50px;
 }
