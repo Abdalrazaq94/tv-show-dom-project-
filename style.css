@@ -26,7 +26,7 @@
 }
 .ep-text-header {
   height: 5rem;
-  border: 1px solid rgb(163, 157, 157);
+  border: 1px solid #a39d9d;
   border-radius: 5%;
 }
 .ep-text-header div {
@@ -34,10 +34,23 @@
 }
 .ep-image {
   margin-top: 2rem;
+
 }
 .main-text-div {
   margin-top: 1rem;
   max-width: 250px;
   height: auto;
   margin-left: 50px;
+}
+
+.nav-bar{
+  width: 100%;
+  background-color: rgb(224, 221, 221);
+  height: 2.5rem;
+}
+.search-nav{
+  width: 13rem;
+  height: 1.5rem;
+  margin-top: 0.4rem;
+  
 }
