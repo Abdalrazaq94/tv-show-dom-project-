@@ -45,4 +45,7 @@ function init(shows) {
 }
 
 
+console.log(getAllEpisodes());
+
 window.onload = setup;
+
